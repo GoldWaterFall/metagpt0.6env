@@ -1,0 +1,27 @@
+2024-02-27 10:03:20.553 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 10:03:20.553 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\yhd\PycharmProjects\testmetagpt\workspace
+2024-02-27 10:03:20.553 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-02-27 10:04:37.302 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 10:04:37.303 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\yhd\PycharmProjects\testmetagpt\workspace
+2024-02-27 10:04:37.303 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-02-27 10:04:39.640 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 10:04:39.640 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 10:04:39.650 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 10:04:39.669 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 10:04:39.670 | DEBUG    | metagpt.environment:publish_message:108 - publish_message: {"id":"50035b50e9414310bd02408710493f2c","content":"Topic: climate change. Under 80 words per message.","role":"Human","cause_by":"metagpt.actions.add_requirement.UserRequirement","sent_from":"","send_to":["Alex"]}
+2024-02-27 10:04:39.670 | DEBUG    | metagpt.team:run:130 - max n_round=4 left.
+2024-02-27 10:04:39.671 | DEBUG    | metagpt.roles.role:_observe:397 - Alex(Democratic candidate) observed: ['Human: Topic: climate chang...']
+2024-02-27 10:04:39.671 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[Action], state=0
+2024-02-27 10:04:39.671 | DEBUG    | metagpt.roles.role:_react:428 - Alex(Democratic candidate): self.rc.state=0, will do Action
+2024-02-27 10:04:39.671 | INFO     | metagpt.roles.role:_act:357 - Alex(Democratic candidate): to do Action(AlexSay)
+2024-02-27 10:04:39.697 | DEBUG    | metagpt.roles.role:run:479 - Bob(Republican candidate): no news. waiting.
+2024-02-27 10:04:44.871 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 54, completion_tokens: 36
+2024-02-27 10:04:44.871 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[Action], state=-1
+2024-02-27 10:04:44.872 | DEBUG    | metagpt.environment:publish_message:108 - publish_message: {"id":"3a37d3de22404f1c9642c629b04b6ae7","content":" 1: AI: Climate change is a pressing issue that demands immediate action. We must reduce carbon emissions and invest in sustainable solutions to protect our planet and future generations.","role":"Alex(Democratic candidate)","cause_by":"metagpt.actions.action.Action","sent_from":"metagpt.roles.role.Role","send_to":["<all>"]}
+2024-02-27 10:04:44.872 | DEBUG    | metagpt.environment:run:132 - is idle: False
+2024-02-27 10:04:44.872 | DEBUG    | metagpt.team:run:130 - max n_round=3 left.
+2024-02-27 10:04:44.872 | DEBUG    | metagpt.roles.role:run:479 - Alex(Democratic candidate): no news. waiting.
+2024-02-27 10:04:44.872 | DEBUG    | metagpt.roles.role:_observe:397 - Bob(Republican candidate) observed: ['Alex(Democratic candidate):  1: AI: Climate chan...']
+2024-02-27 10:04:44.872 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[Action], state=0
+2024-02-27 10:04:44.872 | DEBUG    | metagpt.roles.role:_react:428 - Bob(Republican candidate): self.rc.state=0, will do Action
+2024-02-27 10:04:44.872 | INFO     | metagpt.roles.role:_act:357 - Bob(Republican candidate): to do Action(BobSay)
