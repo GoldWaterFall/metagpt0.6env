@@ -25,3 +25,30 @@
 2024-02-27 10:04:44.872 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[Action], state=0
 2024-02-27 10:04:44.872 | DEBUG    | metagpt.roles.role:_react:428 - Bob(Republican candidate): self.rc.state=0, will do Action
 2024-02-27 10:04:44.872 | INFO     | metagpt.roles.role:_act:357 - Bob(Republican candidate): to do Action(BobSay)
+2024-02-27 13:55:49.298 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 13:55:49.298 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\yhd\PycharmProjects\metagpt0.6env\workspace
+2024-02-27 13:55:49.298 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-02-27 14:00:19.553 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 14:00:19.553 | DEBUG    | metagpt.config:_ensure_workspace_exists:227 - WORKSPACE_PATH set to C:\Users\yhd\PycharmProjects\metagpt0.6env\workspace
+2024-02-27 14:00:19.554 | DEBUG    | metagpt.config:__init__:85 - Config loading done.
+2024-02-27 14:00:21.431 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 14:00:21.431 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 14:00:21.437 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 14:00:21.442 | INFO     | metagpt.config:get_default_llm_provider_enum:126 - API: LLMProviderEnum.ZHIPUAI
+2024-02-27 14:00:21.444 | DEBUG    | metagpt.environment:publish_message:108 - publish_message: {"id":"7304b3fe1eee402b8e969980d2bd0d89","content":"Topic: climate change. Under 80 words per message.","role":"Human","cause_by":"metagpt.actions.add_requirement.UserRequirement","sent_from":"","send_to":["Alex"]}
+2024-02-27 14:00:21.445 | DEBUG    | metagpt.team:run:130 - max n_round=4 left.
+2024-02-27 14:00:21.445 | DEBUG    | metagpt.roles.role:_observe:397 - Alex(Democratic candidate) observed: ['Human: Topic: climate chang...']
+2024-02-27 14:00:21.445 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[Action], state=0
+2024-02-27 14:00:21.445 | DEBUG    | metagpt.roles.role:_react:428 - Alex(Democratic candidate): self.rc.state=0, will do Action
+2024-02-27 14:00:21.446 | INFO     | metagpt.roles.role:_act:357 - Alex(Democratic candidate): to do Action(AlexSay)
+2024-02-27 14:00:21.472 | DEBUG    | metagpt.roles.role:run:479 - Bob(Republican candidate): no news. waiting.
+2024-02-27 14:00:29.527 | INFO     | metagpt.utils.cost_manager:update_cost:48 - Total running cost: $0.000 | Max budget: $10.000 | Current cost: $0.000, prompt_tokens: 54, completion_tokens: 36
+2024-02-27 14:00:29.528 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[Action], state=-1
+2024-02-27 14:00:29.529 | DEBUG    | metagpt.environment:publish_message:108 - publish_message: {"id":"58d7a14e320d49a2b9b118acd5c2b2d9","content":" 1: AI: Climate change is a pressing issue that demands immediate action. We must reduce carbon emissions and invest in sustainable solutions to protect our planet and future generations.","role":"Alex(Democratic candidate)","cause_by":"metagpt.actions.action.Action","sent_from":"metagpt.roles.role.Role","send_to":["<all>"]}
+2024-02-27 14:00:29.529 | DEBUG    | metagpt.environment:run:132 - is idle: False
+2024-02-27 14:00:29.530 | DEBUG    | metagpt.team:run:130 - max n_round=3 left.
+2024-02-27 14:00:29.531 | DEBUG    | metagpt.roles.role:run:479 - Alex(Democratic candidate): no news. waiting.
+2024-02-27 14:00:29.531 | DEBUG    | metagpt.roles.role:_observe:397 - Bob(Republican candidate) observed: ['Alex(Democratic candidate):  1: AI: Climate chan...']
+2024-02-27 14:00:29.532 | DEBUG    | metagpt.roles.role:_set_state:289 - actions=[Action], state=0
+2024-02-27 14:00:29.532 | DEBUG    | metagpt.roles.role:_react:428 - Bob(Republican candidate): self.rc.state=0, will do Action
+2024-02-27 14:00:29.532 | INFO     | metagpt.roles.role:_act:357 - Bob(Republican candidate): to do Action(BobSay)
